@@ -19,7 +19,16 @@ class GridDesign extends StatelessWidget {
           itemCount: 9,
           itemBuilder: (context,index) =>Padding(
             padding: const EdgeInsets.all(1),
-            child: Container(color: Colors.white,child: Center(child: Text("${index+1}"))),
+            child: Container(
+                color: Colors.white,child: Center(
+                    child: Text(
+                        "${index+1}",
+                        style: TextStyle(
+                          fontSize: 80
+                        ),
+                    )
+                )
+            ),
           ),
         ),
       ),
