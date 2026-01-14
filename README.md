@@ -37,3 +37,9 @@ The game supports both **mobile and web**, with responsive UI and winner/draw de
 - A popup dialog shows the winner or a draw
 
 - Press Restart to play again
+
+
+
+
+https://github.com/user-attachments/assets/3fb07195-8ca8-4a36-b329-f42ae7371f34
+
