@@ -1,16 +1,39 @@
-# xo
+# 🟢 XO Game (Flutter)
 
-A new Flutter project.
+A **Tic-Tac-Toe (XO) game** built with **Flutter** and **Flutter Bloc/Cubit** for state management.  
+The game supports both **mobile and web**, with responsive UI and winner/draw detection.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎯 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 3×3 **XO grid**  
+- **Player turns** (X & O)  
+- **Winner detection** and **draw detection**  
+- Popup dialog when **game ends**  
+- **Prevent moves** after the game is over  
+- **Reset/Restart game**  
+- Works on **Web, Android, and iOS**  
+- Responsive layout with **max size constraints** for web  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+- **Flutter** – Frontend  
+- **Flutter Bloc/Cubit** – State management  
+- **Dart** – Programming language  
+- Fully **cross-platform**  
+
+---
+
+
+## 🎮 How to Play
+
+- Click on an empty cell to place your mark (X or O)
+
+- Players alternate turns until someone wins or the board is full
+
+- A popup dialog shows the winner or a draw
+
+- Press Restart to play again
