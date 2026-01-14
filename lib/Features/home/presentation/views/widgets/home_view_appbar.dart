@@ -15,6 +15,9 @@ class HomeViewAppbar extends StatelessWidget implements PreferredSizeWidget {
         ),
       ),
       centerTitle: true,
+      leading: IconButton(onPressed: (){
+        BlocProvider.of<AppCubit>(context).restBoard();
+      }, icon: Icon(Icons.restart_alt)),
       backgroundColor: Color(0xffdea5f8),
     );
   }
